@@ -18,7 +18,7 @@ public class ATM_project{
             while(true){
                 System.out.println("\nPress 1 to check Balance");
                 System.out.println("Press 2 to add amount");
-                System.out.println("Press 3 to take amount");
+                System.out.println("Press 3 to withdraw amount");
                 System.out.println("Press 4 to take receipt");
                 System.out.println("press 5 to exit");
                 System.out.println();
@@ -55,7 +55,7 @@ public class ATM_project{
                         System.out.println();
                         System.out.println("Available balance is =" +balance);
                         System.out.println("Amount deposited     =" +AddAmount);
-                        System.out.println("Amount taken         ="+TakeAmount);
+                        System.out.println("Amount debited       ="+TakeAmount);
                         System.out.println("Thanks for Coming");
                         break;
                     
